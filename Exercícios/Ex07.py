@@ -1,0 +1,8 @@
+p1 = int(input("Valor do 1º Produto:"))
+p2 = int(input("Valor do 2º Produto:"))
+p3 = int(input("Valor do 3º Produto:"))
+p4 = int(input("Valor do 4º Produto:"))
+p5 = int(input("Valor do 5º Produto:"))
+dinheiro = int(input("Insira o valor do seu pagamento: "))
+troco = dinheiro - (p1 + p2 + p3 + p4 + p5)
+print("Seu troco é: ", troco)
